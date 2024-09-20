@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circle and Square Layout</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            color: red;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .shape-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .circle {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 100%;
+            border : 2px solid black;
+        }
+
+        .square {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(255, 254, 254);
+            margin-top: -0px;
+            border : 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1> Heading</h1>
+        <div class="shape-container">
+            <div class="circle"></div>
+            <div class="square"></div>
+        </div>
+    </div>
+</body>
+</html>
